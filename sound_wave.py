@@ -21,6 +21,5 @@ class SoundParticle:
             intersection = intersection(self.tail, tip, edge[0], edge[1])
             if intersection:
                 
-                intersection = 
             else:
                 self.r = r
