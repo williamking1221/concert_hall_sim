@@ -4,7 +4,7 @@ import math
 
 class Room:
 
-    def __init__(self, corners=[[0, 0], [0, 30], [30, 30], [30, 0]]):
+    def __init__(self, corners):
         """
         Initializes corners, angles. Corners listed in a clockwise order. Angles is a list of angles in radians.
         Terms of angles are angles of line from corner[0] --> corner[1], corner[1] --> corner[2] ...,
